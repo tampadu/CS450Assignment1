@@ -97,7 +97,10 @@ header {
 
 .blackline{
     background-color: black;
-    height: 1px;
+    height: 2px;
+    width: 100%;
+    min-height: 2px;
+    flex-shrink: 0;
 }
 
 .keytitle{
