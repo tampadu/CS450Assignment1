@@ -1,0 +1,127 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 8.5in;
+    height: 11in;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /*height: 100vh;*/
+}
+
+.info {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex: 1;
+    padding: 40px;
+}
+
+header {
+    display: flex;
+    background-color: rgb(227, 227, 227);
+    height: 3in;
+}
+
+.divinfo {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.divname{
+    margin: 0;
+}
+
+#fullname{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#title{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.personal{
+    display: flex;
+}
+
+#personaltitle{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    flex: 1 0 auto;
+    font-style: italic;
+}
+
+.work{
+    display: flex;
+}
+
+.worktitle{
+    margin: 10px;
+    padding: 10px;
+    padding-right: 0px;
+    font-size: 20px;
+    flex: 1 0 auto;
+    font-style: italic;
+}
+
+.company{
+    font-size: 17px;
+    padding-top: 8px;
+}
+
+#yellow{
+    background-color: #fcba03;
+    height: 10px;
+    width: 100%;
+}
+
+.blackline{
+    background-color: black;
+    height: 1px;
+}
+
+.keytitle{
+    margin: 10px;
+    padding: 10px;
+    padding-right: 33px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.educationtitle{
+    margin: 10px;
+    padding: 10px;
+    padding-right: 67px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.ull {
+    padding-left: 0px;
+}
+
+.lii{
+    padding-bottom: 10px;
+}
+
+.space{
+    padding-bottom: 2in;
+}
