@@ -97,9 +97,9 @@ header {
 
 .blackline{
     background-color: black;
-    height: 2px;
+    height: 1px;
     width: 100%;
-    min-height: 2px;
+    min-height: 1px;
     flex-shrink: 0;
 }
 
